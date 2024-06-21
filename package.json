@@ -1,0 +1,39 @@
+{
+  "name": "ollama-gui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "format": "npx prettier --write src"
+  },
+  "dependencies": {
+    "@tabler/icons-vue": "^2.38.0",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/markdown-it": "^13.0.7",
+    "@vueuse/core": "^10.5.0",
+    "autoprefixer": "^10.4.16",
+    "date-fns": "^3.0.1",
+    "dexie": "^3.2.4",
+    "gravatar-url": "^4.0.1",
+    "highlight.js": "^11.9.0",
+    "markdown-it": "^14.0.0",
+    "markdown-it-anchor": "^8.6.7",
+    "markdown-it-highlightjs": "^4.0.1",
+    "postcss": "^8.4.31",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.5",
+    "tailwindcss": "^3.3.3",
+    "uuid": "^9.0.1",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.5",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^5.3.1",
+    "vue-tsc": "^1.8.5"
+  }
+}
