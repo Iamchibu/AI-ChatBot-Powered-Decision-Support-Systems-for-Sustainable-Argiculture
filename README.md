@@ -47,7 +47,7 @@ to [ollama.ai/library](https://ollama.ai/library 'ollama model library').
 | Model                                                                                                                           | Parameters | Size  | Download                          |
 |---------------------------------------------------------------------------------------------------------------------------------|------------|-------|-----------------------------------|
 | Llama 2                                                                                                                         | 7B         | 3.8GB | `ollama pull llama2`              |
-| Vicuna                                                                                                                          | 7B         | 3.8GB | `ollama pull falcon`              |
+| Falcon                                                                                                                          | 7B         | 4.2GB | `ollama pull falcon`              |
 
 ---
 
