@@ -1,7 +1,4 @@
-<p align="center">
-  <img src=".github/header.png" alt="Ollama GUI logo">
-</p>
-
+#AGRI-BOT
 # Ollama GUI: Web Interface for chatting with your local LLMs.
 
 Ollama GUI is a web interface for [ollama.ai](https://ollama.ai/download), a tool that enables running Large
