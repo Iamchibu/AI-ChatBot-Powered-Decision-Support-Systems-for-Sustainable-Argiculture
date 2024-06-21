@@ -53,6 +53,7 @@ to [ollama.ai/library](https://ollama.ai/library 'ollama model library').
 
 - [Ollama.ai](https://ollama.ai/) - CLI tool for models.
 - [LangUI](https://www.langui.dev/)
+- [Python](https://www.python.org/)
 - [Vue.js](https://vuejs.org/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
