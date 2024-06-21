@@ -46,37 +46,10 @@ to [ollama.ai/library](https://ollama.ai/library 'ollama model library').
 
 | Model                                                                                                                           | Parameters | Size  | Download                          |
 |---------------------------------------------------------------------------------------------------------------------------------|------------|-------|-----------------------------------|
-| <a href="https://ollama.ai/library/mixtral"><img src="https://img.shields.io/badge/New-black.svg"/></a> Mixtral-8x7B Large      | 7B         | 26GB  | `ollama pull mixtral`             |
-| <a href="https://ollama.ai/library/phi"><img src="https://img.shields.io/badge/New-black.svg"/></a> Phi                         | 2.7B       | 1.6GB | `ollama pull phi`                 |
-| <a href="https://ollama.ai/library/solar"><img src="https://img.shields.io/badge/New-black.svg"/></a> Solar                     | 10.7B      | 6.1GB | `ollama pull solar`               |
-| <a href="https://ollama.ai/library/dolphin-mixtral"><img src="https://img.shields.io/badge/New-black.svg"/></a> Dolphin Mixtral | 7B         | 4.1GB | `ollama pull dolphin-mixtral`     |
-| Mistral                                                                                                                         | 7B         | 4.1GB | `ollama pull mistral`             |
-| Mistral (instruct)                                                                                                              | 7B         | 4.1GB | `ollama pull mistral:7b-instruct` |
 | Llama 2                                                                                                                         | 7B         | 3.8GB | `ollama pull llama2`              |
-| Code Llama                                                                                                                      | 7B         | 3.8GB | `ollama pull codellama`           |
-| Llama 2 Uncensored                                                                                                              | 7B         | 3.8GB | `ollama pull llama2-uncensored`   |
-| Orca Mini                                                                                                                       | 3B         | 1.9GB | `ollama pull orca-mini`           |
 | Vicuna                                                                                                                          | 7B         | 3.8GB | `ollama pull falcon`              |
-| Vicuna                                                                                                                          | 7B         | 3.8GB | `ollama pull vicuna`              |
-| Vicuna (16K context)                                                                                                            | 7B         | 3.8GB | `ollama pull vicuna:7b-16k`       |
-| Vicuna (16K context)                                                                                                            | 13B        | 7.4GB | `ollama pull vicuna:13b-16k`      |
-| nexusraven                                                                                                                      | 13B        | 7.4gB | `ollama pull nexusraven`          |
-| starcoder                                                                                                                       | 7B         | 4.3GB | `ollama pull starcoder:7b`        |
-| wizardlm-uncensored                                                                                                             | 13B        | 7.4GB | `ollama pull wizardlm-uncensored` |
-
-## 📋 To-Do List
-
-- [x] Properly format newlines in the chat message (PHP-land has `nl2br` basically want the same thing)
-- [x] Store chat history using IndexedDB locally
-- [x] Cleanup the code, I made a mess of it for the sake of speed and getting something out the door.
-- [x] Add markdown parsing [lib](https://dev.to/matijanovosel/rendering-markdown-in-vue-3-3maj)
-- [ ] Allow browsing and installation of available models (library)
-- [ ] Ensure mobile responsiveness (non-prioritized use-case atm.)
-- [ ] Add file uploads with OCR and stuff.
 
 ---
-
-## 🛠 Built With
 
 - [Ollama.ai](https://ollama.ai/) - CLI tool for models.
 - [LangUI](https://www.langui.dev/)
